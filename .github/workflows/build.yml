@@ -1,6 +1,8 @@
+Name: Node Continues Integration
 on: push
 jobs:
-  first-job:
+  build-node:
+    name: Build Node
     runs-on: ubuntu-latest
     container: node:14
     steps:
