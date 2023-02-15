@@ -1,4 +1,4 @@
-Name: Node Continues Integration
+name: Node Continues Integration
 on: push
 jobs:
   build-node:
