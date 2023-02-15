@@ -1,10 +1,10 @@
-name: Node Continues Integration
+name: Node Continuous Integration
 on: push
 jobs:
   build-node:
     name: Build Node
     runs-on: ubuntu-latest
-    container: node:16
+    container: node:14
     steps:
       - run: node --version
         name: Check Node Version
@@ -14,7 +14,7 @@ jobs:
         name: Checkout Code
       - run: npm install
         name: Install NPM Packages
-      - run: node app.js 
+      - run: node app.js
         name: Run Application
 
       
