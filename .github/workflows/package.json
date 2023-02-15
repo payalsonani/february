@@ -4,5 +4,8 @@
     "dependencies": {
         "moment": "^2.29.4",
         "npm": "^9.4.2"
+    },
+    "devDependencies": {
+        "sass": "^1.58.1"
     }
 }
